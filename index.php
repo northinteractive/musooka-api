@@ -1,10 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 
-/*
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-*/
+/* =============================
+GET token routing
+==============================*/
 
 if(isset($_GET['q'])) {
 	$tmp = explode("/",$_GET['q']);
